@@ -1,0 +1,21 @@
+[
+    {
+        "id": "lmkii_full_subjectivity_suite_mk_two",
+        "name": "FULL SUBJECTIVITY SUITE MK. II",
+        "source": "SSC",
+        "description": "<i>Version TWO</i>",
+        "effect": "You gain +2 Evasion. This does not stack with the FULL SUBJECTIVITY SUITE Core Bonus. 1/Round, before the dice are rolled, declare that you treat the roll of the d20 as a 10 before applying accuracy/difficulty and other modifiers.",
+        "bonuses": [
+            {
+                "id": "evasion",
+                "val": 2
+            }
+        ],
+        "synergies": [
+            {
+                "locations": ["weapon"],
+                "detail": "1/Round, before the dice are rolled, declare that you treat the roll of the d20 as a 10 before applying accuracy/difficulty and other modifiers."
+            }
+        ]
+    }
+]
