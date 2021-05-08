@@ -241,7 +241,7 @@
         "source": "HORUS",
         "license": "MANTICORE",
         "license_level": 2,
-        "on_hit": "",
+        "on_hit": "You may also make a secondary attack against a different character within range 3 of the first target. You can continue making secondary attacks on hits, as long as there are new, valid targets within range, up to 3 additional attacks including the first, and secondary attacks can’t deal bonus damage. Characters can’t be hit more than once with the same firing of this weapon.",
         "description": "",
         "data_type": "weapon",
         "aptitude": {}
