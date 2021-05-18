@@ -15,6 +15,35 @@
         "aptitude": {}
     },
     {
+        "id": "lmkii_tactical_melee_mk_two",
+        "name": "TACTICAL MELEE MK. II",
+        "mount": "Main",
+        "type": "Melee",
+        "damage": [{"type": "Kinetic", "val": "1d6+3"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": "",
+        "data_type": "weapon",
+        "aptitude": {}
+    },
+    {
+        "id": "lmkii_charged_blade_mk_two",
+        "name": "CHARGED BLADE MK. II",
+        "mount": "Main",
+        "type": "Melee",
+        "damage": [{"type": "Energy", "val": "1d3+4"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "tags": [{"id": "tg_ap"}, {"id": "tg_overkill"}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": "",
+        "data_type": "weapon",
+        "aptitude": {}
+    },
+    {
         "id": "lmkii_heavy_melee_mk_two",
         "name": "HEAVY MELEE MK. II",
         "mount": "Heavy",
@@ -26,6 +55,21 @@
         "license": "GMS",
         "license_level": 0,
         "description": "Terrifying.",
+        "data_type": "weapon",
+        "aptitude": {}
+    },
+    {
+        "id": "lmkii_heavy_charged_blade_mk_two",
+        "name": "HEAVY CHARGED BLADE MK. II",
+        "mount": "Heavy",
+        "type": "Melee",
+        "damage": [{"type": "Energy", "val": "1d6+4"}],
+        "range": [{"type": "Threat", "val": 2}],
+        "tags": [{"id": "tg_ap"}, {"id": "tg_overkill"}],
+        "source": "GMS",
+        "license": "GMS",
+        "license_level": 0,
+        "description": "",
         "data_type": "weapon",
         "aptitude": {}
     },
