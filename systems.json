@@ -577,7 +577,7 @@
     },
     {
         "id": "lmkii_singularity_motivator",
-        "name": "SINGULARITY MOTIVATOR",
+        "name": "SINGULARITY MOTIVATOR MK. II",
         "sp": 2,
         "tags": [{"id": "tg_unique"}],
         "source": "SSC",
@@ -589,7 +589,7 @@
                 "activation": "Reaction",
                 "frequency": "1/round",
                 "trigger": "Your mech takes damage.",
-                "detail": "You may immediately teleport to a free space within 1d6 spaces."
+                "detail": "You may immediately teleport to a free space within 1d3+3 spaces."
             }
         ],
         "description": "This unique gravitic power plant was first developed by SSC’s Exotic Materials Group for the first-generation Mourning Cloak. For subsequent models, engineers devised a system that allows pilots to – for a moment – open the grav containment system’s aperture, exposing a slice of naked singularity to realspace.<br>A naked singularity is difficult to perceive for both organics and synthetics, being similar to the heart of a black hole. The sudden exposure essentially removes the mech and its pilot from realtime. The user experiences around 10 seconds of subjective time – a brief window, in which they can act independently of local realtime.<br>SSC recommends against abuse of this system, as the effects of long-term exposure to local sidereal time are still unknown."
