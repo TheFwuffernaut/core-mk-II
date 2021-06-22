@@ -186,7 +186,7 @@
         "actions": [
             {
                 "activation": "Quick",
-                "detail": "This system can only be used in the Danger Zone.<br>Expend a charge and choose a character adjacent to you: they must succeed on an Agility save or take 4d6 AP energy damage and be knocked Prone. On a success, they take half damage and aren’t knocked Prone. You take half of the damage inflicted – before reduction – as heat and are treated as if you had Braced next turn."
+                "detail": "This system can only be used in the Danger Zone.<br>Expend a charge and choose a character adjacent to you: they must succeed on an Agility save or take 4d6 AP energy damage and be knocked Prone. On a success, they take half damage and aren’t knocked Prone. You take half of the damage inflicted – before reduction – as heat and are treated as if you had Braced next turn, activating any relevant Systems and Traits as per normal Brace."
             }
         ],
         "description": "This studded gauntlet draws on a core reactor pulse to momentarily superheat the air around a mech’s manipulator, creating a plasma field momentarily hotter than the surface of the sun. Thrust into an opponent’s chassis, plasma gauntlets give mechs the power to warp armor, vaporize shielding, and rip apart internal systems with their bare hands – if they don’t collapse in on themselves first."
@@ -202,7 +202,7 @@
         "actions": [
             {
                 "activation": "Quick",
-                "detail": "You are treated as if you had taken the Brace reaction and all characters within burst 1 without the Biological tag must succeed on a Systems save or also become Stunned until the end of their next turn. Characters can only be Stunned 1/scene by this effect."
+                "detail": "You are treated as if you had taken the Brace reaction, activating any relevant Systems and Traits as per normal Brace. All characters within burst 1 without the Biological tag must succeed on a Systems save or also become Stunned until the end of their next turn. Characters can only be Stunned 1/scene by this effect."
             }
         ],
         "description": "“Crawl away, APEP! Thou hateful serpent; thou shalt not copulate. Thou art put in chains and taken to the place of execution; there thy slaying shall be carried out.”"
