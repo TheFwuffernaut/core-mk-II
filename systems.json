@@ -176,6 +176,20 @@
         "description": "Originally developed from a captured Minerva pre-eidolon anomaly, NOAH was adapted for use as a metropolitan administrative NHP on Ras Shamra. The unit that would become NOAH did not, at first, seem like a suitable candidate for military application: this changed after one of its clones was flagged for review following the spontaneous implementation of anomalous traffic patterns, pedestrian routing, and vac-loop scheduling. Armory ontologisticians and engineers isolated and emphasized endemic protocols that could be exploited for tactical advantage.<br>Over numerous iterations and lifecycles, NOAH Prime displayed a high level of adaptability in multiple-variable geospatial problems. A proclivity toward crisis management and multi-actor tracking led to NOAH’s pairing with the Armory’s ENCLAVE-Pattern Support Shield. By networking a series of jet-assist mobility drones carrying an ENCLAVE generator, monitored and controlled by a NOAH clone, Think Tank was able to create an unparalleled personal shielding system: the Diluvian Ark, a miniaturized cluster-shield system unique to the NOAH NHP.<br>Using the Diluvian Ark, NOAH is able to intercept incoming kinetics – and even redirect projectiles back to their source – with stunning accuracy."
     },
     {
+		"id": "mwc_reactor_stabilizer_mktwo",
+    	"name": "REACTOR STABILIZER MK. II",
+		"type": "System",
+    	"sp": 3,
+    	"tags": [{
+    	  	"id": "tg_unique"
+    	}],
+    	"source": "HA",
+    	"license": "SHERMAN",
+    	"license_level": 1,
+    	"effect": "You may roll all overheating checks twice and choose either result.",
+    	"description": "A necessary component of most mechs that rely on high energy output, reactor stabilizers add another layer of failsafes to vent heat, manage power flow, and shunt excessive output into weapons and systems as needed."
+	},
+    {
         "id": "lmkii_plasma_gauntlet_mk_two",
         "name": "PLASMA GAUNTLET MK. II",
         "sp": 2,
