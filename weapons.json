@@ -241,7 +241,7 @@
         "sp": 1,
         "range": [{"type": "Range","val": 10}],
         "damage": [{"type": "Explosive","val": "1d6+3"}],
-        "effect": "This weapon may be used to attack as normal, or deployed as a Drone.",
+        "effect": "This weapon may be used to attack as normal, or deployed as a Drone.<br>The deployed Drone has an Edef of 10 or the Frame's, whichever is higher.",
         "deployables": [
             {
                 "name": "Ghast Drone",
@@ -252,7 +252,7 @@
                 "size": 0.5,
                 "hp": "5+{grit}",
                 "armor": 2,
-                "edef": "10 or frame's, whichever is higher.",
+                "edef": 10,
                 "sensor_range": 8,
                 "evasion": 10,
                 "detail": "This Ghast nexus can be deployed to a free space within Sensors and line of sight as a free action, where it becomes a hovering drone. Once deployed, you may still use it for Skirmish and Barrage attacks as though it is still a weapon, but with line of sight and Range traced from its location. This benefit applies to all other Nexuses on your frame. <br>Treat targets within Ghast's Sensors as being within your frame's Sensors.<br>You may move Ghast nexus 4 spaces as a free action before or after Skirmishing or Barraging with it. You may recall Ghast Nexus as a quick action. <br>Until recalled or destroyed, it remains deployed until the end of the scene. If destroyed, it follows the rules for destroyed Drones and can’t be used until repaired."
