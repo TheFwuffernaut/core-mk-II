@@ -1,6 +1,8 @@
 [
     {
         "id": "lmkii_barbarossa_mk_two",
+        "variant": "Barbarossa",
+        "license_id": "mf_barbarossa",
         "license_level": 2,
         "source": "HA",
         "name": "BARBAROSSA MK. II",
@@ -118,6 +120,8 @@
     },
     {
         "id": "lmkii_minotaur_mk_two",
+        "variant": "Minotaur",
+        "license_id": "mf_minotaur",
         "license_level": 2,
         "source": "HORUS",
         "name": "MINOTAUR MK. II",
@@ -179,12 +183,14 @@
     },
     {
         "id": "lmkii_nelson_mk_two",
+        "variant": "Nelson",
+        "license_id": "mf_nelson",
         "license_level": 2,
         "source": "IPS-N",
         "name": "NELSON MK. II",
         "mechtype": ["Striker"],
         "description": "The IPS-N Nelson is the purest embodiment of the close-quarters doctrine espoused by its manufacturer. It is built to brawl, thriving when ordnance has been exhausted or when the environment is too volatile for firearms. With its functional size, the Nelson can strike fast and remain a difficult target to track. Layers of fractal-fold Armor-Lock plating with ceramic-analogous carbon flaking properties effectively nullify the impact of incoming ballistics by dispersing kinetic energy across a rounded hull. This null-k defense protects the pilot from impact trauma, allowing for sustained combat efficacy in high-trade scenarios.<br>The Nelson is an iconic IPS-N chassis, known across the galaxy as the favored frame of the Albatross, the nomadic order of Cosmopolitan peacekeepers. The Albatross’ distinctive white, gold, and red livery, mastery of the war pike, and apparent agelessness due to time dilation has won both them and the Nelson a venerated place in Diasporan lore – and secured an endorsement contract with IPS-N in perpetuity.",
-        "mounts": ["Flex", "Heavy"],
+        "mounts": ["Main/Aux", "Heavy"],
         "stats": {
             "size": 1,
             "structure": 4,
@@ -226,6 +232,8 @@
     },
     {
         "id": "lmkii_lancaster_mk_two",
+        "variant": "Lancaster",
+        "license_id": "mf_lancaster",
         "license_level": 2,
         "source": "IPS-N",
         "name": "LANCASTER MK. II",
@@ -280,6 +288,8 @@
     },
     {
         "id": "lmkii_mourning_cloak_mk_two",
+        "variant": "Mourning Cloak",
+        "license_id": "mf_mourning_cloak",
         "license_level": 2,
         "source": "SSC",
         "name": "MOURNING CLOAK MK. II",
@@ -353,5 +363,71 @@
                 }
             ]
         }
+    },
+    {
+        "id": "lmkii_atlas_mk_two",
+        "source": "SSC",
+        "name": "ATLAS MK. II",
+        "mechtype": ["Striker"],
+        "y_pos": 14,
+        "license_level": 2,
+        "description": "<p>Originally commissioned as a dueling mech by the Baronic Houses of Smoke and Order, the Atlas blurs the line between mechanized chassis and powered personal armor. Thanks to a long-running research project from SSC's Exotic Materials Group, the designers were able to employ the bleeding edge of reactor miniaturization tech: the result was a chassis that resembled a large, sleek hardsuit, almost skintight in places. While the Atlas sacrifices the durability of a larger frame, its essential systems are so closely melded with its user's movements that it offers unparalleled maneuverability.</p> <p>Although the Atlas was initially licensed only to Baronic clients, its design was leaked when a group of ExoMat personnel lost a suit to a Sparri espada in an intense game of Kapkat. Despite their initial attempt to recover the suit, SSC relented, citing the eager demand from Sparri groups for access to the full license. </p> <p>Considered the perfect warrior frame for hunting the native megafauna of Sparr, the Atlas now enjoys a dual reputation among both the Sparri peoples and Karrakin nobility. To the Sparri, the Atlas &ndash; its combat efficacy notwithstanding &ndash; is highly valued for the direct access its systems allow to their ancestral memory; Atlas frames on Sparr are the heirlooms of great warriors, tied to family (blood and chosen) and maintained by hand. Each suit on Sparr bears the history of its previous pilots in both decorations and FCA-compliant machine learning, which enables Sparri hunters to almost literally call upon their ancestors in battle. The Atlas has become so popular among the Sparri that they even developed a new martial art based on the Atlas: Jäger Kunst. </p> <p>The Karrakin nobility, on the other hand, find the Atlas to be a perfect machine for noble heroism &ndash; that the Sparri have an affinity for it only makes the chassis that much more desirable among Karrakin Sparrist scholars. Commonly decorated with purchased Sparri saga discs, Vast pelts, and saga lines, Karrakin suits blend imagined profiles of Annorum Passacaglia and Annorum Tyrannus-era heroes with profiles of Sparri warriors, daredevils, vast-hunters, and espadas.</p>",
+        "mounts": ["Flex", "Heavy"],
+        "stats": {
+            "size": 0.5,
+            "stress": 4,
+            "structure": 4,
+            "armor": 0,
+            "hp": 6,
+            "evasion": 12,
+            "edef": 6,
+            "heatcap": 5,
+            "repcap": 3,
+            "sensor_range": 3,
+            "tech_attack": -2,
+            "save": 11,
+            "speed": 6,
+            "sp": 6
+        },
+        "traits": [
+            {
+                "name": "Giantkiller",
+                "description": "The Atlas counts as SIZE 1 for RAM and GRAPPLE. It ignores engagement from larger characters and can freely move through and share the spaces they occupy (even if they’re hostile). While occupying the same spaces as any character, it gains soft cover, even from that character.",
+                "synergies": [
+                    {
+                        "locations": ["ram", "grapple"],
+                        "detail": "The Atlas counts as size 1 for the purposes of ramming and grappling."
+                    },
+                    {
+                        "locations": ["active_effects"],
+                        "detail": "The Atlas ignores engagement from actors larger than itself, can share space with larger actors (even hostile ones) and move through their spaces unimpeded. While sharing space with any character, it gains soft cover, even from that character."
+                    }
+                ]
+            },
+            {
+                "name": "Jäger Dodge",
+                "description": "1/round, when you take damage from a larger character, gain RESISTANCE to that damage and move 3 spaces in any direction as a reaction. This ignores engagement and doesn’t provoke reactions.",
+                "actions": [
+                    {
+                        "name": "Jäger Dodge",
+                        "activation": "Reaction",
+                        "trigger": "You take damage from a character larger than yourself",
+                        "detail": "Gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions."
+                    }
+                ]
+            },
+            {
+                "name": "Jaeger Suite",
+                "description": "The Atlas has Resistance to damage from all Saves and Checks, and Resistance to Reliable Damage."
+            }
+        ],
+        "core_system": {
+            "name": "BLOODLINE Active Assist",
+            "description": "The ATLAS extends microneedles into the musculature and ancillary nervous system of its pilot, melding flesh, machine, and the memory of all who wore it before.",
+            "active_name": "Final Hunt",
+            "active_effect": "<p>For the rest of the scene, you:</p> <ul><li>Gain +1 Speed, and may move an additional space when using other sources of movement (Jaeger Kunst, Accelerate, etc.)</li><li>You may move an additional 1 space every time when you use non-standard (Move/Boost) movement for any reason (e.g. Jager Kunst, Ace, Accelerate).</li><li>Benefit from soft cover at all times.</li><li>Can Hide anywhere, even in plain sight. In addition, you cannot be revealed through passive effects.</li></ul><li>You break Hide through the standard means; Boosting, taking a reaction, attacking, etc.</li><li>1/round: When you make a Ranged or Melee attack, your target must also succeed on a Hull save before the attack is resolved. If they fail, they are knocked Prone.</li></ul>",
+            "activation": "Protocol"
+        },
+        "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/atlas_new.png"
     }
 ]
